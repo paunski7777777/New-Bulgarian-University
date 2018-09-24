@@ -1,0 +1,10 @@
+id, first_name, last_name
+1, gosho, ivanov
+
+zip(columns, value)
+
+column, value
+
+[{k:v for k, v in zip(columns, entity)} for entity in entities]
+
+[[id, 1], [first_name, gosho], [last_name, pesho]]
