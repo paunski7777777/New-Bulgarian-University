@@ -1,0 +1,22 @@
+﻿@model MyPersonal.App.ViewModels.Comments.CommentInputModel
+
+@{
+    ViewData["Title"] = "Leave a Comment";
+}
+
+<h2 class="text-center">Leave a Comment</h2>
+<hr />
+<div class="container-fluid d-flex justify-content-center">
+    <div class="row">
+        <form class="form-inline" asp-controller="Comments" asp-action="Comment" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="input-group input-group-lg">
+                <textarea asp-for="Content" class="form-control" placeholder="Write me something...">@Model.Content</textarea>
+                <span asp-validation-for="Content" class="text-danger"></span>
+                <div class="input-group-append">
+                    <input class="btn btn-outline-dark" type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
