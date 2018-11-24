@@ -1,4 +1,6 @@
-﻿@{
+﻿@model MyPersonal.App.ViewModels.Index.IndexViewModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -8,16 +10,16 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div>
-                        <h2>Alexander Paunski</h2>
-                        <p>I'm a C# Web Developer</p>
+                        <h2>@Model.Name</h2>
+                        <p>@Model.Info</p>
                     </div>
                     <div>
                         <h2>General Info</h2>
                         <ul>
-                            <li><span>Date of Birth: </span>30 January 1997</li>
-                            <li><span>Address: </span>Bulgaria, Sofia</li>
-                            <li><span>E-mail: </span>adskidolen@mail.bg</li>
-                            <li><span>Phone: </span>+359 884 695 169</li>
+                            <li><span>Date of Birth: </span>@Model.DateOfBirth</li>
+                            <li><span>Address: </span>@Model.Address</li>
+                            <li><span>E-mail: </span>@Model.Email</li>
+                            <li><span>Phone: </span>@Model.Phone</li>
                         </ul>
                     </div>
                 </div>

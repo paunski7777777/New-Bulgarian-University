@@ -6,12 +6,13 @@
 
     using MyPersonal.App.Controllers.Base;
     using MyPersonal.App.ViewModels;
+    using MyPersonal.App.ViewModels.Index;
 
     public class HomeController : BaseController
     {
-        public IActionResult Index()
+        public IActionResult Index(IndexViewModel model)
         {
-            return View();
+            return View(model);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

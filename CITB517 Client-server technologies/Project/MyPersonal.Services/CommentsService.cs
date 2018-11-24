@@ -2,7 +2,9 @@
 {
     using System.Collections.Generic;
     using System.Linq;
+
     using Microsoft.AspNetCore.Identity;
+
     using MyPersonal.Data;
     using MyPersonal.Models;
     using MyPersonal.Services.Contracts;
@@ -11,13 +13,11 @@
     {
         private readonly MyPersonalDbContext dbContext;
         private readonly UserManager<User> userManager;
-        private readonly SignInManager<User> signInManager;
 
-        public CommentsService(MyPersonalDbContext dbContext, UserManager<User> userManager, SignInManager<User> signInManager)
+        public CommentsService(MyPersonalDbContext dbContext, UserManager<User> userManager)
         {
             this.dbContext = dbContext;
             this.userManager = userManager;
-            this.signInManager = signInManager;
         }
 
         public void CreateComment(string content, string userName)
@@ -36,5 +36,8 @@
 
         public IEnumerable<Comment> All()
             => this.dbContext.Comments.ToList();
+
+        public IEnumerable<Comment> LeftCommentsByUser(string userName)
+            => this.dbContext.Comments.Where(u => u.User.UserName == userName).ToList();
     }
 }

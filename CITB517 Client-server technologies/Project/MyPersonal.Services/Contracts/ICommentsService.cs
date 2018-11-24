@@ -8,5 +8,6 @@
     {
         void CreateComment(string content, string userName);
         IEnumerable<Comment> All();
+        IEnumerable<Comment> LeftCommentsByUser(string userName);
     }
 }

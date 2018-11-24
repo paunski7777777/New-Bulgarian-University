@@ -1,0 +1,26 @@
+﻿@model MyPersonal.App.ViewModels.Comments.AllCommentsViewModel
+
+@{
+    ViewData["Title"] = "Left Comments by Me";
+}
+
+<h2 class="text-center">Left Comments by Me</h2>
+<hr />
+<table class="table-hover table table-striped">
+    <tr>
+        <th>#</th>
+        <th>Comment</th>
+        <th>Date</th>
+    </tr>
+    @{
+        int index = 1;
+    }
+    @foreach (var comment in Model.Comments)
+    {
+        <tr>
+            <td>@(index++)</td>
+            <td>@comment.Comment</td>
+            <td>@comment.Date</td>
+        </tr>
+    }
+</table>

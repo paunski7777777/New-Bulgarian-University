@@ -30,7 +30,7 @@
                 this.commentsService.CreateComment(model.Content, this.User.Identity.Name);
             }
 
-            return this.View(model);
+            return this.RedirectToAction(nameof(All));
         }
 
         public IActionResult All()
@@ -42,6 +42,7 @@
                                                    Comment = vm.Content,
                                                    Date = vm.CreatedOn.ToShortDateString()
                                                })
+                                               .OrderByDescending(d => d.Date)
                                                .ToList();
 
             var commentViewModels = new AllCommentsViewModel
@@ -49,7 +50,29 @@
                 Comments = comments
             };
 
-            return View(commentViewModels);
+            return this.View(commentViewModels);
+        }
+
+        [Authorize]
+        public IActionResult Left()
+        {
+            var currentUsername = this.User.Identity.Name;
+
+            var comments = this.commentsService.LeftCommentsByUser(currentUsername)
+                                               .Select(vm => new CommentViewModel
+                                               {
+                                                   Comment = vm.Content,
+                                                   Date = vm.CreatedOn.ToShortDateString()
+                                               })
+                                               .OrderByDescending(d => d.Date)
+                                               .ToList();
+
+            var commentViewModels = new AllCommentsViewModel
+            {
+                Comments = comments
+            };
+
+            return this.View(commentViewModels);
         }
     }
 }
