@@ -1,0 +1,33 @@
+c:\users\l\documents\visual studio 2013\Projects\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.exe.config
+c:\users\l\documents\visual studio 2013\Projects\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.exe
+c:\users\l\documents\visual studio 2013\Projects\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.pdb
+c:\users\l\documents\visual studio 2013\Projects\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.csprojResolveAssemblyReference.cache
+c:\users\l\documents\visual studio 2013\Projects\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.exe
+c:\users\l\documents\visual studio 2013\Projects\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.pdb
+E:\Storage\LTomov_Library\NBU\CITB576 - Desktop приложения .NET C\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.exe.config
+E:\Storage\LTomov_Library\NBU\CITB576 - Desktop приложения .NET C\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.exe
+E:\Storage\LTomov_Library\NBU\CITB576 - Desktop приложения .NET C\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.pdb
+E:\Storage\LTomov_Library\NBU\CITB576 - Desktop приложения .NET C\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.exe
+E:\Storage\LTomov_Library\NBU\CITB576 - Desktop приложения .NET C\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.pdb
+E:\Storage\LTomov_Library\NBU\CITB576 - Desktop приложения .NET C\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.exe.config
+C:\Users\user\Documents\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.exe
+C:\Users\user\Documents\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.pdb
+C:\Users\user\Documents\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.exe
+C:\Users\user\Documents\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.pdb
+C:\Users\Alexander\Desktop\SimpleCalculator2\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.exe.config
+C:\Users\Alexander\Desktop\SimpleCalculator2\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.exe
+C:\Users\Alexander\Desktop\SimpleCalculator2\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.pdb
+C:\Users\Alexander\Desktop\SimpleCalculator2\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.csprojAssemblyReference.cache
+C:\Users\Alexander\Desktop\SimpleCalculator2\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Desktop\SimpleCalculator2\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.exe
+C:\Users\Alexander\Desktop\SimpleCalculator2\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.pdb
+C:\Users\Alexander\Desktop\Calculator\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.exe.config
+C:\Users\Alexander\Desktop\Calculator\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.exe
+C:\Users\Alexander\Desktop\Calculator\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.pdb
+C:\Users\Alexander\Desktop\Calculator\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.csprojAssemblyReference.cache
+C:\Users\Alexander\Desktop\Calculator\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Desktop\Calculator\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.exe
+C:\Users\Alexander\Desktop\Calculator\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.pdb
