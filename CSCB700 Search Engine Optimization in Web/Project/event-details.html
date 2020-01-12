@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Culture Events Hub - Event Details</title>
+    <link
+      rel="shortcut icon"
+      href="assets/logo/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="assets/logo/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/styles/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="custom-body">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a title="HomePage" class="navbar-brand" href="index.html">Culture Events Hub</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a title="HomePage" class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+            title="Events"
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Events
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a title="UpcomingEvents" class="dropdown-item" href="upcoming-events.html">Upcoming</a>
+              <a title="PastEvents" class="dropdown-item" href="past-events.html">Past</a>
+              <div class="dropdown-divider"></div>
+              <a title="AllEvents" class="dropdown-item" href="all-events.html">All</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a title="MyTickets" class="nav-link" href="my-tickets.html">My Tickets</a>
+          </li>
+          <li class="nav-item">
+            <a title="Artists" class="nav-link" href="artists.html">Artists</a>
+          </li>
+          <li class="nav-item">
+            <a title="Halls" class="nav-link" href="halls.html">Halls</a>
+          </li>
+          <li class="nav-item">
+            <a title="AboutPage" class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2 j"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item active">
+            <i
+              class="far fa-user user-icon"
+              data-toggle="collapse"
+              href="#loginRegister"
+              role="button"
+              aria-expanded="false"
+              aria-controls="loginRegister"
+            ></i>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="collapse custom-collapse" id="loginRegister">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a title="LoginPage" class="nav-link" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a title="RegisterPage" class="nav-link" href="register.html">Register</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container custom-container">
+      <h1 class="text-center custom-header">Event</h1>
+      <div class="card mb-3 custom-ticket-card-body">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img
+              src="assets/images/artists/rachkov.jpg"
+              class="card-img"
+              alt="Artist Image"
+              height="400"
+            />
+            <p class="card-text">
+              <div class="custom-buttom-container">
+                <a title="BuyTicket" href="ticket-details.html" class="btn btn-primary"
+                  >Buy Ticket</a
+                >
+              </div>
+            </p>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title">Забраненото шоу на Рачков</h3>
+              <p class="card-text">
+                След като видите това шоу, Вие ще спрете да гледате телевизия.
+                Ще спрете да си купувате прах за пране и да търкате билетчета.
+              </p>
+              <p class="card-text">
+                „Забраненото шоу на Рачков“ е комедиен моноспектакъл, който ще
+                ви въведе в кухнята на телевизията. Как се правят новините?
+                Лъжат ли ни рекламите? Какво работи продуцентът? Свършват ли
+                някога сапунените сериали? Това са само част от въпросите, на
+                които дава отговор един от най-обичаните шоумени в България
+                Димитър Рачков.
+              </p>
+              <p class="card-text">
+                „Забраненото шоу на Рачков“ е спектакъл-антидепресант, който
+                гарантира забавление за цялото семейство. Посмейте се на цялата
+                телевизионна машина, разобличена в едно шоу – от сутрешните
+                блокове до холивудските екшъни, от „Бай Брадър“ до прогнозата за
+                времето, от готварските предавания до спортните емисии…
+              </p>
+              <p class="card-text">
+                „Забраненото шоу на Рачков“ е първото телевизионно шоу извън
+                телевизията, което разкрива смешната страна на телевизионните
+                продукции, вкопчени във вечната борбата за рейтинг.
+              </p>
+              <p class="card-text">
+                Искали ли сте някога да водите Новините? А да участвате в
+                любимата си телевизионна игра? „Забраненото шоу на Рачков“ е
+                интерактивен спектакъл, който ви дава тази възможност.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer class="text-center custom-footer">
+    &copy; 2020 Culture Events Hub. All Rights Reserved
+  </footer>
+</html>

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Culture Events Hub - Artists</title>
+    <link rel="shortcut icon" href="assets/logo/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/logo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="custom-body">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a title="HomePage" class="navbar-brand" href="index.html">Culture Events Hub</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a title="HomePage" class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+            title="Events"
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Events
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a title="UpcomingEvents" class="dropdown-item" href="upcoming-events.html">Upcoming</a>
+              <a title="PastEvents" class="dropdown-item" href="past-events.html">Past</a>
+              <div class="dropdown-divider"></div>
+              <a title="AllEvents" class="dropdown-item" href="all-events.html">All</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a title="MyTickets" class="nav-link" href="my-tickets.html">My Tickets</a>
+          </li>
+          <li class="nav-item">
+            <a title="Artists" class="nav-link" href="artists.html">Artists</a>
+          </li>
+          <li class="nav-item">
+            <a title="Halls" class="nav-link" href="halls.html">Halls</a>
+          </li>
+          <li class="nav-item">
+            <a title="AboutPage" class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2 j"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item active">
+            <i
+              class="far fa-user user-icon"
+              data-toggle="collapse"
+              href="#loginRegister"
+              role="button"
+              aria-expanded="false"
+              aria-controls="loginRegister"
+            ></i>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="collapse custom-collapse" id="loginRegister">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a title="LoginPage" class="nav-link" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a title="RegisterPage" class="nav-link" href="register.html">Register</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb custom-breadcrumb">
+        <li class="breadcrumb-item"><a title="HomePage" class="custom-breadcrumb-link" href="index.html">Home</a></li>
+        <li class="breadcrumb-item active custom-breadcrumb-active-item" aria-current="page">Artists</li>
+      </ol>
+    </nav>
+    <div class="container custom-container">
+      <h1 class="text-center custom-header">Artists</h1>
+      <div class="card-deck">
+        <div class="card custom-card">
+           <div class="card">
+             <img class="card-img-top" 
+             src="assets/images/artists/rachkov.jpg"
+              alt="Artist Image" 
+             height="196"
+             width="196"
+              />
+           </div>
+          <div class="card-body">
+            <h5 class="card-title">Димитър Рачков</h5>
+            <p class="card-text">Забраненото шоу на Рачков</p>
+            <p class="card-text"><small class="text-muted">Burgas</small></p>
+          </div>
+        </div>
+        <div class="card custom-card">
+          <img class="card-img-top" 
+          src="assets/images/artists/maria-ilieva.jpg" 
+          alt="Artist Image"
+          height="196"
+           width="196"
+           />
+          <div class="card-body">
+            <h5 class="card-title">Мария Илиева</h5>
+            <p class="card-text">Всичко - най-доброто от Мария Илиева</p>
+            <p class="card-text"><small class="text-muted">Plovdiv</small></p>
+          </div>
+        </div>
+        <div class="card custom-card">
+          <img class="card-img-top" 
+          src="assets/images/artists/ico-hazarta.jpg"
+          alt="Artist Image"
+          height="196"
+          width="196" />
+          <div class="card-body">
+            <h5 class="card-title">Ицо Хазарта</h5>
+            <p class="card-text">Опознай Ицо преди да съдиш хазарта</p>
+            <p class="card-text"><small class="text-muted">Sofia</small></p>
+          </div>
+        </div>
+        <div class="card custom-card">
+          <img class="card-img-top" 
+          src="assets/images/artists/lili-ivanova.jpg" 
+          alt="Artist Image"
+          height="196"
+          width="196" />
+          <div class="card-body">
+            <h5 class="card-title">Лили Иванова</h5>
+            <p class="card-text">Турне</p>
+            <p class="card-text"><small class="text-muted">Bulgaria</small></p>
+          </div>
+        </div>
+        <div class="card custom-card">
+          <img class="card-img-top" 
+          src="assets/images/artists/imperski-ruski-balet.jpg" 
+          alt="Artist Image"
+          height="196"
+          width="196"/>
+          <div class="card-body">
+            <h5 class="card-title">ИМПЕРСКИ РУСКИ БАЛЕТ</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck">
+        <div class="card custom-card">
+          <img class="card-img-top" 
+          src="assets/images/artists/ostava.jpg" 
+          alt="Artist Image"
+          height="196"
+          width="196"/>
+          <div class="card-body">
+            <h5 class="card-title">Остава</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+        <div class="card custom-card">
+          <img class="card-img-top" 
+          src="assets/images/artists/dream-theater.jpg" 
+          alt="Artist Image" 
+          height="196"
+          width="196"/>
+          <div class="card-body">
+            <h5 class="card-title">DREAM THEATER</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+        <div class="card custom-card">
+          <img class="card-img-top" 
+          src="assets/images/artists/kubanski-hor.jpg" 
+          alt="Artist Image"
+          height="196"
+          width="196"/>
+          <div class="card-body">
+            <h5 class="card-title">Кубански казашки хор</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+        <div class="card custom-card">
+          <img class="card-img-top" 
+          src="assets/images/artists/therion.jpg" 
+          alt="Artist Image"
+          height="196"
+          width="196"/>
+          <div class="card-body">
+            <h5 class="card-title">Therion </h5>
+            <p class="card-text">Една от най-обичаните симфонични метъл банди у нас!</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+        <div class="card custom-card">
+          <img class="card-img-top" 
+          src="assets/images/artists/skandau.jpg" 
+          alt="Artist Image"
+          height="196"
+          width="196"/>
+          <div class="card-body">
+            <h5 class="card-title">Скандау</h5>
+            <p class="card-text">Хайвера Tour</p>
+            <p class="card-text"><small class="text-muted">Bulgaria</small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck">
+        <div class="card custom-card">
+          <img class="card-img-top" 
+          src="assets/images/artists/kirkorov.jpg" 
+          alt="Artist Image"
+          height="196"
+          width="196"/>
+          <div class="card-body">
+            <h5 class="card-title">Филип Киркоров</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+        <div class="card custom-card">
+          <img class="card-img-top" 
+          src="assets/images/artists/lube.jpg" 
+          alt="Artist Image"
+          height="196"
+          width="196"/>
+          <div class="card-body">
+            <h5 class="card-title">ЛЮБЭ</h5>
+            <p class="card-text">Юбилеен концерт 30 години</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+        <div class="card custom-card">
+          <img class="card-img-top" 
+          src="assets/images/artists/grafa.jpg" 
+          alt="Artist Image"
+          height="196"
+          width="196"/>
+          <div class="card-body">
+            <h5 class="card-title">Графа</h5>
+            <p class="card-text">Турне</p>
+            <p class="card-text"><small class="text-muted">Bulgaria</small></p>
+          </div>
+        </div>
+        <div class="card custom-card">
+          <img class="card-img-top" 
+          src="assets/images/artists/goran-bregovic.jpg" 
+          alt="Artist Image"
+          height="196"
+          width="196"/>
+          <div class="card-body">
+            <h5 class="card-title">Горан Брегович</h5>
+            <p class="card-text">Концерт</p>
+            <p class="card-text"><small class="text-muted">Зала 1 на НДК</small></p>
+          </div>
+        </div>
+        <div class="card custom-card">
+          <img class="card-img-top" 
+          src="assets/images/artists/vuldobrev.jpg" 
+          alt="Artist Image"
+          height="196"
+          width="196"/>
+          <div class="card-body">
+            <h5 class="card-title">Стефан Вълдобрев</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+  <footer class="text-center custom-footer">
+    &copy; 2020 Culture Events Hub. All Rights Reserved
+  </footer>
+</html>
