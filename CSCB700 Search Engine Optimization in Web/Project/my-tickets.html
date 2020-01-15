@@ -19,8 +19,24 @@
       name="description"
       content="Table of all purchased tickets for events of an user from the Culture Events hub."
     />
-    <meta name="keywords" content="events, tickets, users, online ticket system" />
+    <meta name="keywords" content="events, tickets, users, online ticket system, culture, culture events" />
     <meta name="author" content="Alexander Paunski and Momchil Dimitrov" />
+    
+    <meta property="og:title" content="My Tickets Page" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://cultureeventshub.000webhostapp.com/my-tickets.html"
+    />
+    <meta
+      property="og:image"
+      content="https://cultureeventshub.000webhostapp.com/assets/logo/favicon.ico"
+    />
+    <meta property="og:site_name" content="Culture Events Hub" />
+    <meta
+      property="og:description"
+      content="Culture Events Hub - Online Ticket System"
+    />
 
     <title>Culture Events Hub - My Tickets</title>
     <link
@@ -175,7 +191,7 @@
       </ol>
     </nav>
     <div class="container custom-container">
-      <h1 class="text-center custom-header">My Tickets</h1>
+      <h1 itemprop="title" class="text-center custom-header">My Tickets</h1>
       <table class="table table-hover table-dark">
         <thead class="custom-table-head">
           <tr>
@@ -189,60 +205,67 @@
         </thead class="custom-table-head">
         <tbody>
           <tr>
-            <th scope="row">1</th>
-            <td><a title="Ticket Details" href="ticket-details.html">Ticket 1</a></td>
-            <td>1</td>
-            <td>19.99 lv.</td>
-            <td>Event 1</td>
-            <td>Sofia</td>
+            <th itemprop="index" scope="row">1</th>
+            <td itemprop="name"><a title="Ticket Details" href="ticket-details.html">Ticket 1</a></td>
+            <td itemprop="quantity">1</td>
+            <td itemprop="price">19.99 lv.</td>
+            <meta itemprop="priceCurrency" content="BGN" />
+            <td itemprop="event">Event 1</td>
+            <td itemprop="location">Sofia</td>
           </tr>
           <tr>
-            <th scope="row">2</th>
-            <td><a title="Ticket Details" href="ticket-details.html">Ticket 2</a></td>
-            <td>2</td>
-            <td>49.99 lv.</td>
-            <td>Event 2</td>
-            <td>Plovdiv</td>
+            <th itemprop="index" scope="row">2</th>
+            <td itemprop="name"><atitle="Ticket Details" href="ticket-details.html">Ticket 2</a></td>
+            <td itemprop="quantity">2</td>
+            <td itemprop="price">49.99 lv.</td>
+            <meta itemprop="priceCurrency" content="BGN" />
+            <td itemprop="event">Event 2</td>
+            <td itemprop="location">Plovdiv</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
-            <td><a title="Ticket Details" href="ticket-details.html">Ticket 3</a></td>
-            <td>5</td>
-            <td>129.99 lv.</td>
-            <td>Event 3</td>
-            <td>Burgas</td>
+            <th itemprop="index" scope="row">3</th>
+            <td itemprop="name"><a title="Ticket Details" href="ticket-details.html">Ticket 3</a></td>
+            <td itemprop="quantity">5</td>
+            <td itemprop="price">129.99 lv.</td>
+            <meta itemprop="priceCurrency" content="BGN" />
+            <td itemprop="event">Event 3</td>
+            <td itemprop="location">Burgas</td>
           </tr>
           <tr>
-            <th scope="row">4</th>
-            <td><a title="Ticket Details" href="ticket-details.html">Ticket 4</a></td>
-            <td>10</td>
-            <td>199.99 lv.</td>
-            <td>Event 4</td>
-            <td>Burgas</td>
+            <th itemprop="index" scope="row">4</th>
+            <td itemprop="name"><a title="Ticket Details" href="ticket-details.html">Ticket 4</a></td>
+            <td itemprop="quantity">10</td>
+            <td itemprop="price">199.99 lv.</td>
+            <meta itemprop="priceCurrency" content="BGN" />
+            <td itemprop="event">Event 4</td>
+            <td itemprop="location">Burgas</td>
           </tr>
           <tr>
-            <th scope="row">5</th>
-            <td><a title="Ticket Details" href="ticket-details.html">Ticket 5</a></td>
-            <td>3</td>
-            <td>79.99 lv.</td>
-            <td>Event 5</td>
-            <td>Burgas</td>
+            <th itemprop="index" scope="row">5</th>
+            <td itemprop="name"><a title="Ticket Details" href="ticket-details.html">Ticket 5</a></td>
+            <td itemprop="quantity">3</td>
+            <td itemprop="price">79.99 lv.</td>
+            <meta itemprop="priceCurrency" content="BGN" />
+            <td itemprop="event">Event 5</td>
+            <td itemprop="location">Burgas</td>
           </tr>
           <tr>
-            <th scope="row">6</th>
-            <td><a title="Ticket Details" href="ticket-details.html">Ticket 6</a></td>
-            <td>7</td>
-            <td>99.99 lv.</td>
-            <td>Event 6</td>
-            <td>Burgas</td>
+            <th itemprop="index" scope="row">6</th>
+            <td itemprop="name"><a title="Ticket Details" href="ticket-details.html">Ticket 6</a></td>
+            <td itemprop="quantity">7</td>
+            <td itemprop="price">99.99 lv.</td>
+            <meta itemprop="priceCurrency" content="BGN" />
+            <td itemprop="event">Event 6</td>
+            <td itemprop="location">Burgas</td>
           </tr>
           <tr>
-            <th scope="row">7</th>
-            <td><a title="Ticket Details" href="ticket-details.html">Ticket 7</a></td>
-            <td>4</td>
-            <td>39.99 lv.</td>
-            <td>Event 7</td>
-            <td>Burgas</td>
+            <th itemprop="index" scope="row">7</th>
+            <td itemprop="name"><a title="Ticket Details" href="ticket-details.html">Ticket 7</a></td>
+            <td itemprop="quantity">4</td>
+            <td itemprop="price">39.99 lv.</td>
+            <meta itemprop="priceCurrency" content="BGN" />
+            <td itemprop="event">Event 7</td>
+            <td itemprop="location">Burgas</td>
           </tr>
         </tbody>
       </table>

@@ -19,8 +19,24 @@
       name="description"
       content="Details of an event from the Culture Events Hub."
     />
-    <meta name="keywords" content="events, tickets, online ticket system" />
+    <meta name="keywords" content="events, tickets, online ticket system, culture events, bulgarian events" />
     <meta name="author" content="Alexander Paunski and Momchil Dimitrov" />
+
+    <meta property="og:title" content="Event Details Page" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://cultureeventshub.000webhostapp.com/event-details.html"
+    />
+    <meta
+      property="og:image"
+      content="https://cultureeventshub.000webhostapp.com/assets/logo/favicon.ico"
+    />
+    <meta property="og:site_name" content="Culture Events Hub" />
+    <meta
+      property="og:description"
+      content="Culture Events Hub - Online Ticket System"
+    />
 
     <title>Culture Events Hub - Event Details</title>
     <link
@@ -168,8 +184,8 @@
       </nav>
     </div>
     <div class="container custom-container">
-      <h1 class="text-center custom-header">Event</h1>
-      <div class="card mb-3 custom-ticket-card-body">
+      <h1 itemprop="name" class="text-center custom-header">Event</h1>
+      <div class="card mb-3 custom-ticket-card-body" itemscope itemtype="http://schema.org/ImageObject">
         <div class="row no-gutters">
           <div class="col-md-4">
             <img
@@ -177,6 +193,7 @@
               class="card-img"
               alt="Artist Image"
               height="400"
+              itemprop="contentUrl"
             />
             <p class="card-text">
               <div class="custom-buttom-container">
@@ -188,12 +205,12 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h3 class="card-title">Забраненото шоу на Рачков</h3>
-              <p class="card-text">
+              <h3 itemprop="name" class="card-title">Забраненото шоу на Рачков</h3>
+              <p itemprop="description" class="card-text">
                 След като видите това шоу, Вие ще спрете да гледате телевизия.
                 Ще спрете да си купувате прах за пране и да търкате билетчета.
               </p>
-              <p class="card-text">
+              <p itemprop="description" class="card-text">
                 „Забраненото шоу на Рачков“ е комедиен моноспектакъл, който ще
                 ви въведе в кухнята на телевизията. Как се правят новините?
                 Лъжат ли ни рекламите? Какво работи продуцентът? Свършват ли
@@ -201,19 +218,19 @@
                 които дава отговор един от най-обичаните шоумени в България
                 Димитър Рачков.
               </p>
-              <p class="card-text">
+              <p itemprop="description" class="card-text">
                 „Забраненото шоу на Рачков“ е спектакъл-антидепресант, който
                 гарантира забавление за цялото семейство. Посмейте се на цялата
                 телевизионна машина, разобличена в едно шоу – от сутрешните
                 блокове до холивудските екшъни, от „Бай Брадър“ до прогнозата за
                 времето, от готварските предавания до спортните емисии…
               </p>
-              <p class="card-text">
+              <p itemprop="description" class="card-text">
                 „Забраненото шоу на Рачков“ е първото телевизионно шоу извън
                 телевизията, което разкрива смешната страна на телевизионните
                 продукции, вкопчени във вечната борбата за рейтинг.
               </p>
-              <p class="card-text">
+              <p itemprop="description" class="card-text">
                 Искали ли сте някога да водите Новините? А да участвате в
                 любимата си телевизионна игра? „Забраненото шоу на Рачков“ е
                 интерактивен спектакъл, който ви дава тази възможност.

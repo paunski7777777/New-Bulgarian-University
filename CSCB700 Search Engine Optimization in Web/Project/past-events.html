@@ -24,8 +24,24 @@
       name="description"
       content="Here you can find past events from the Culture Events Hub."
     />
-    <meta name="keywords" content="events, tickets, online ticket system" />
+    <meta name="keywords" content="events, tickets, online ticket system, culture, culture events, Bulgaria" />
     <meta name="author" content="Alexander Paunski and Momchil Dimitrov" />
+
+    <meta property="og:title" content="Past Events Page" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://cultureeventshub.000webhostapp.com/past-events.html"
+    />
+    <meta
+      property="og:image"
+      content="https://cultureeventshub.000webhostapp.com/assets/logo/favicon.ico"
+    />
+    <meta property="og:site_name" content="Culture Events Hub" />
+    <meta
+      property="og:description"
+      content="Culture Events Hub - Online Ticket System"
+    />
 
     <title>Culture Events Hub - Past Events</title>
     <link
@@ -206,26 +222,27 @@
       </ol>
     </nav>
     <div class="container custom-container">
-      <h1 class="text-center custom-header">Past Events</h1>
+      <h1 itemprop="title" class="text-center custom-header">Past Events</h1>
       <div class="row">
         <div class="col">
-          <div class="card custom-card" style="width: 18rem;">
+          <div class="card custom-card" style="width: 18rem;" itemscope itemtype="http://schema.org/ImageObject">
             <img
               class="card-img-top"
               src="assets/images/events/event-play.jpg"
               alt="Event Image"
               height="200"
               width="200"
+              itemprop="contentUrl"
             />
             <div class="card-body">
-              <h5 class="card-title">Event 1</h5>
-              <p class="card-text">
+              <h5 itemprop="name" class="card-title">Event 1</h5>
+              <p itemprop="description" class="card-text">
                 Event Description
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item custom-li-item">Date</li>
-              <li class="list-group-item custom-li-item">Location</li>
+              <li itemprop="date" class="list-group-item custom-li-item">Date</li>
+              <li itemprop="location" class="list-group-item custom-li-item">Location</li>
             </ul>
             <div class="card-body">
               <a title="Buy Ticket" href="ticket-details.html" class="card-link"
@@ -238,23 +255,24 @@
           </div>
         </div>
         <div class="col">
-          <div class="card custom-card" style="width: 18rem;">
+          <div class="card custom-card" style="width: 18rem;" itemscope itemtype="http://schema.org/ImageObject">
             <img
               class="card-img-top"
               src="assets/images/events/event-exhibition.jpg"
               alt="Event Image"
               height="200"
               width="200"
+              itemprop="contentUrl"
             />
             <div class="card-body">
-              <h5 class="card-title">Event 2</h5>
-              <p class="card-text">
+              <h5 itemprop="name" class="card-title">Event 2</h5 i>
+              <p itemprop="description" class="card-text">
                 Event Description
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item custom-li-item">Date</li>
-              <li class="list-group-item custom-li-item">Location</li>
+              <li itemprop="date" class="list-group-item custom-li-item">Date</li>
+              <li itemprop="location" class="list-group-item custom-li-item">Location</li>
             </ul>
             <div class="card-body">
               <a title="Buy Ticket" href="ticket-details.html" class="card-link"
@@ -267,23 +285,24 @@
           </div>
         </div>
         <div class="col">
-          <div class="card custom-card" style="width: 18rem;">
+          <div class="card custom-card" style="width: 18rem;" itemscope itemtype="http://schema.org/ImageObject">
             <img
               class="card-img-top"
               src="assets/images/events/event-opera.jpg"
               alt="Event Image"
               height="200"
               width="200"
+              itemprop="contentUrl"
             />
             <div class="card-body">
-              <h5 class="card-title">Event 3</h5>
-              <p class="card-text">
+              <h5 itemprop="name" class="card-title">Event 3</h5>
+              <p itemprop="description" class="card-text">
                 Event Description
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item custom-li-item">Date</li>
-              <li class="list-group-item custom-li-item">Location</li>
+              <li itemprop="date" class="list-group-item custom-li-item">Date</li>
+              <li itemprop="location" class="list-group-item custom-li-item">Location</li>
             </ul>
             <div class="card-body">
               <a title="Buy Ticket" href="ticket-details.html" class="card-link"
@@ -298,23 +317,24 @@
       </div>
       <div class="row">
         <div class="col">
-          <div class="card custom-card" style="width: 18rem;">
+          <div class="card custom-card" style="width: 18rem;" itemscope itemtype="http://schema.org/ImageObject">
             <img
               class="card-img-top"
               src="assets/images/events/event-concert.jpg"
               alt="Event Image"
               height="200"
               width="200"
+              itemprop="contentUrl"
             />
             <div class="card-body">
-              <h5 class="card-title">Event 4</h5>
-              <p class="card-text">
+              <h5 itemprop="name" class="card-title">Event 4</h5>
+              <p itemprop="description" class="card-text">
                 Event Description
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item custom-li-item">Date</li>
-              <li class="list-group-item custom-li-item">Location</li>
+              <li itemprop="date" class="list-group-item custom-li-item">Date</li>
+              <li itemprop="location" class="list-group-item custom-li-item">Location</li>
             </ul>
             <div class="card-body">
               <a title="Buy Ticket" href="ticket-details.html" class="card-link"
@@ -327,23 +347,24 @@
           </div>
         </div>
         <div class="col">
-          <div class="card custom-card" style="width: 18rem;">
+          <div class="card custom-card" style="width: 18rem;" itemscope itemtype="http://schema.org/ImageObject">
             <img
               class="card-img-top"
               src="assets/images/events/event-ballet.jpg"
               alt="Event Image"
               height="200"
               width="200"
+              itemprop="contentUrl"
             />
             <div class="card-body">
-              <h5 class="card-title">Event 5</h5>
-              <p class="card-text">
+              <h5 itemprop="name" class="card-title">Event 5</h5>
+              <p itemprop="description" class="card-text">
                 Event Description
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item custom-li-item">Date</li>
-              <li class="list-group-item custom-li-item">Location</li>
+              <li itemprop="date" class="list-group-item custom-li-item">Date</li>
+              <li itemprop="location" class="list-group-item custom-li-item">Location</li>
             </ul>
             <div class="card-body">
               <a title="Buy Ticket" href="ticket-details.html" class="card-link"
@@ -356,23 +377,24 @@
           </div>
         </div>
         <div class="col">
-          <div class="card custom-card" style="width: 18rem;">
+          <div class="card custom-card" style="width: 18rem;" itemscope itemtype="http://schema.org/ImageObject">
             <img
               class="card-img-top"
               src="assets/images/events/play.jpg"
               alt="Event Image"
               height="200"
               width="200"
+              itemprop="contentUrl"
             />
             <div class="card-body">
-              <h5 class="card-title">Event 6</h5>
-              <p class="card-text">
+              <h5 itemprop="name" class="card-title">Event 6</h5>
+              <p itemprop="description" class="card-text">
                 Event Description
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item custom-li-item">Date</li>
-              <li class="list-group-item custom-li-item">Location</li>
+              <li itemprop="date" class="list-group-item custom-li-item">Date</li>
+              <li itemprop="location" class="list-group-item custom-li-item">Location</li>
             </ul>
             <div class="card-body">
               <a title="Buy Ticket" href="ticket-details.html" class="card-link"

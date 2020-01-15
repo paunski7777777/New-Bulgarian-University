@@ -24,8 +24,24 @@
       name="description"
       content="Details of an ticket for event from the Culture Events Hub."
     />
-    <meta name="keywords" content="events, tickets, online ticket system" />
+    <meta name="keywords" content="events, tickets, online ticket system, culture, Bulgaria, culture events" />
     <meta name="author" content="Alexander Paunski and Momchil Dimitrov" />
+
+    <meta property="og:title" content="Ticket Details Page" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://cultureeventshub.000webhostapp.com/ticket-details.html"
+    />
+    <meta
+      property="og:image"
+      content="https://cultureeventshub.000webhostapp.com/assets/logo/favicon.ico"
+    />
+    <meta property="og:site_name" content="Culture Events Hub" />
+    <meta
+      property="og:description"
+      content="Culture Events Hub - Online Ticket System"
+    />
 
     <title>Culture Events Hub - Ticket Details</title>
     <link
@@ -206,25 +222,27 @@
       </ol>
     </nav>
     <div class="container custom-container">
-      <h1 class="text-center custom-header">Ticket Details</h1>
+      <h1 itemprop="title" class="text-center custom-header">Ticket Details</h1>
       <div class="card">
-        <div class="card-header custom-ticket-card">
+        <div itemprop="name" class="card-header custom-ticket-card">
           Забраненото шоу на Рачков
         </div>
         <div class="card-body custom-ticket-card-body">
-          <div class="card custom-ticket-image">
+          <div class="card custom-ticket-image" itemscope itemtype="http://schema.org/ImageObject">
             <img
               class="card-img-top"
               src="assets/images/artists/rachkov.jpg"
               alt="Artist Image"
               height="196"
               width="196"
+              itemprop="contentUrl"
             />
           </div>
-          <h5 class="card-title">30.01.2020</h5>
-          <p class="card-text">Зала 1, Национален дворец на културата</p>
-          <p class="card-text">Цена: 69.99 lv.</p>
-          <label for="inputTicketQuantity">Брой: </label>
+          <h5 itemprop="date" class="card-title">30.01.2020</h5>
+          <p itemprop="location" class="card-text">Зала 1, Национален дворец на културата</p>
+          <p itemprop="price" class="card-text">Цена: 69.99 lv.</p>
+          <meta itemprop="priceCurrency" content="BGN" />
+          <label itemprop="quantity" for="inputTicketQuantity">Брой: </label>
           <select id="inputTicketQuantity">
             <option disabled selected>0</option>
             <option>1</option>
@@ -238,7 +256,7 @@
             <option>9</option>
             <option>10</option>
           </select>
-          <p class="card-text"><small class="text-muted">София</small></p>
+          <p itemprop="location" class="card-text"><small class="text-muted">София</small></p>
           <a title="Buy Ticket" href="payment.html" class="btn btn-primary"
             >Buy</a
           >

@@ -24,8 +24,24 @@
       name="description"
       content="Here you can find all the halls where the events of the Culture Events Hub take place."
     />
-    <meta name="keywords" content="events, tickets, event halls, halls, online ticket system" />
+    <meta name="keywords" content="events, tickets, event halls, halls, online ticket system, culture, Bulgaria" />
     <meta name="author" content="Alexander Paunski and Momchil Dimitrov" />
+
+    <meta property="og:title" content="Halls Page" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://cultureeventshub.000webhostapp.com/halls.html"
+    />
+    <meta
+      property="og:image"
+      content="https://cultureeventshub.000webhostapp.com/assets/logo/favicon.ico"
+    />
+    <meta property="og:site_name" content="Culture Events Hub" />
+    <meta
+      property="og:description"
+      content="Culture Events Hub - Online Ticket System"
+    />
 
     <title>Culture Events Hub - Halls</title>
     <link
@@ -206,41 +222,44 @@
       </ol>
     </nav>
     <div class="container custom-container">
-      <h1 class="text-center custom-header">Halls</h1>
-      <div class="card bg-dark text-white custom-hall-card">
+      <h1 itemprop="title" class="text-center custom-header">Halls</h1>
+      <div class="card bg-dark text-white custom-hall-card" itemscope itemtype="http://schema.org/ImageObject">
         <img
           class="card-img"
           src="assets/images/halls/ndk-hall1.jpg"
-          alt="Hall Image"
+          alt="Hall 1 NDK Image"
+          itemprop="contentUrl"
         />
         <div class="card-img-overlay">
-          <h5 class="card-title">Event 7</h5>
-          <p class="card-text">National Palace of Culture - Hall 1</p>
-          <p class="card-text">Sofia, Centre</p>
+          <h5 itemprop="event" class="card-title">Event 7</h5>
+          <p itemprop="name" class="card-text">National Palace of Culture - Hall 1</p>
+          <p itemprop="location" class="card-text">Sofia, Centre</p>
         </div>
       </div>
-      <div class="card bg-dark text-white custom-hall-card">
+      <div class="card bg-dark text-white custom-hall-card" itemscope itemtype="http://schema.org/ImageObject">
         <img
           class="card-img"
           src="assets/images/halls/arenca-armeec.jpg"
-          alt="Hall Image"
+          alt="Arena Armeec Image"
+          itemprop="contentUrl"
         />
         <div class="card-img-overlay">
-          <h5 class="card-title">Event 8</h5>
-          <p class="card-text">Arena Armeec Sofia</p>
-          <p class="card-text">bul. Asen Jordanov 1, Sofia</p>
+          <h5 itemprop="event" class="card-title">Event 8</h5>
+          <p itemprop="name" class="card-text">Arena Armeec Sofia</p>
+          <p itemprop="location" class="card-text">bul. Asen Jordanov 1, Sofia</p>
         </div>
       </div>
-      <div class="card bg-dark text-white custom-hall-card">
+      <div class="card bg-dark text-white custom-hall-card" itemscope itemtype="http://schema.org/ImageObject">
         <img
           class="card-img"
           src="assets/images/halls/plovdiv-kolodruma.jpg"
-          alt="Hall Image"
+          alt="Plovdiv Kolodruma Image"
+          itemprop="contentUrl"
         />
         <div class="card-img-overlay">
-          <h5 class="card-title">Event 9</h5>
-          <p class="card-text">Hall "Kolodruma"</p>
-          <p class="card-text">ul. Naycho Tsanov, Plovdiv</p>
+          <h5 itemprop="event" class="card-title">Event 9</h5>
+          <p itemprop="name" class="card-text">Hall "Kolodruma"</p>
+          <p itemprop="location" class="card-text">ul. Naycho Tsanov, Plovdiv</p>
         </div>
       </div>
     </div>

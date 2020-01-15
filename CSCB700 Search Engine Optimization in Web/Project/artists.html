@@ -19,8 +19,24 @@
       name="description"
       content="Here you can find all the artists that participate in the events from the Culture Events Hub."
     />
-    <meta name="keywords" content="events, tickets, artists, online ticket system" />
+    <meta name="keywords" content="events, tickets, artists, online ticket system, bulgarian artists, culture events" />
     <meta name="author" content="Alexander Paunski and Momchil Dimitrov" />
+
+    <meta property="og:title" content="Artists Page" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://cultureeventshub.000webhostapp.com/artists.html"
+    />
+    <meta
+      property="og:image"
+      content="https://cultureeventshub.000webhostapp.com/assets/logo/favicon.ico"
+    />
+    <meta property="og:site_name" content="Culture Events Hub" />
+    <meta
+      property="og:description"
+      content="Culture Events Hub - Online Ticket System"
+    />
 
     <title>Culture Events Hub - Artists</title>
     <link rel="shortcut icon" href="assets/logo/favicon.ico" type="image/x-icon">
@@ -170,196 +186,224 @@
       </ol>
     </nav>
     <div class="container custom-container">
-      <h1 class="text-center custom-header">Artists</h1>
+      <h1 itemprop="title" class="text-center custom-header">Artists</h1 i>
       <div class="card-deck">
-        <div class="card custom-card">
+        <div class="card custom-card" itemscope itemtype="http://schema.org/ImageObject">
            <div class="card">
              <img class="card-img-top" 
              src="assets/images/artists/rachkov.jpg"
               alt="Artist Image" 
              height="196"
              width="196"
+             itemprop="contentUrl"
               />
            </div>
           <div class="card-body">
-            <h5 class="card-title">Димитър Рачков</h5>
-            <p class="card-text">Забраненото шоу на Рачков</p>
-            <p class="card-text"><small class="text-muted">Burgas</small></p>
+            <h5 itemprop="name" class="card-title">Димитър Рачков</h5>
+            <p itemprop="description" class="card-text">Забраненото шоу на Рачков</p>
+            <p itemprop="location" class="card-text"><small class="text-muted">Burgas</small></p>
           </div>
         </div>
-        <div class="card custom-card">
+        <div class="card custom-card" itemscope itemtype="http://schema.org/ImageObject">
           <img class="card-img-top" 
           src="assets/images/artists/maria-ilieva.jpg" 
           alt="Artist Image"
           height="196"
            width="196"
+           itemprop="contentUrl"
            />
           <div class="card-body">
-            <h5 class="card-title">Мария Илиева</h5>
-            <p class="card-text">Всичко - най-доброто от Мария Илиева</p>
-            <p class="card-text"><small class="text-muted">Plovdiv</small></p>
+            <h5 itemprop="name" class="card-title">Мария Илиева</h5>
+            <p itemprop="description" class="card-text">Всичко - най-доброто от Мария Илиева</p>
+            <p itemprop="location" class="card-text"><small class="text-muted">Plovdiv</small></p>
           </div>
         </div>
-        <div class="card custom-card">
+        <div class="card custom-card" itemscope itemtype="http://schema.org/ImageObject">
           <img class="card-img-top" 
           src="assets/images/artists/ico-hazarta.jpg"
           alt="Artist Image"
           height="196"
-          width="196" />
+          width="196"
+          itemprop="contentUrl"
+           />
           <div class="card-body">
-            <h5 class="card-title">Ицо Хазарта</h5>
-            <p class="card-text">Опознай Ицо преди да съдиш хазарта</p>
-            <p class="card-text"><small class="text-muted">Sofia</small></p>
+            <h5 itemprop="name" class="card-title">Ицо Хазарта</h5>
+            <p itemprop="description" class="card-text">Опознай Ицо преди да съдиш хазарта</p>
+            <p itemprop="location" class="card-text"><small class="text-muted">Sofia</small></p>
           </div>
         </div>
-        <div class="card custom-card">
+        <div class="card custom-card" itemscope itemtype="http://schema.org/ImageObject">
           <img class="card-img-top" 
           src="assets/images/artists/lili-ivanova.jpg" 
           alt="Artist Image"
           height="196"
-          width="196" />
+          width="196" 
+          itemprop="contentUrl"
+          />
           <div class="card-body">
-            <h5 class="card-title">Лили Иванова</h5>
-            <p class="card-text">Турне</p>
-            <p class="card-text"><small class="text-muted">Bulgaria</small></p>
+            <h5 itemprop="name" class="card-title">Лили Иванова</h5>
+            <p itemprop="description" class="card-text">Турне</p>
+            <p itemprop="location" class="card-text"><small class="text-muted">Bulgaria</small></p>
           </div>
         </div>
-        <div class="card custom-card">
+        <div class="card custom-card" itemscope itemtype="http://schema.org/ImageObject">
           <img class="card-img-top" 
           src="assets/images/artists/imperski-ruski-balet.jpg" 
           alt="Artist Image"
           height="196"
-          width="196"/>
+          width="196"
+          itemprop="contentUrl"
+          />
           <div class="card-body">
-            <h5 class="card-title">ИМПЕРСКИ РУСКИ БАЛЕТ</h5>
-            <p class="card-text"></p>
-            <p class="card-text"><small class="text-muted"></small></p>
+            <h5 itemprop="name" class="card-title">ИМПЕРСКИ РУСКИ БАЛЕТ</h5>
+            <p itemprop="description" class="card-text"></p>
+            <p itemprop="location" class="card-text"><small class="text-muted"></small></p>
           </div>
         </div>
       </div>
 
       <div class="card-deck">
-        <div class="card custom-card">
+        <div class="card custom-card" itemscope itemtype="http://schema.org/ImageObject">
           <img class="card-img-top" 
           src="assets/images/artists/ostava.jpg" 
           alt="Artist Image"
           height="196"
-          width="196"/>
+          width="196"
+          itemprop="contentUrl"
+          />
           <div class="card-body">
-            <h5 class="card-title">Остава</h5>
-            <p class="card-text"></p>
-            <p class="card-text"><small class="text-muted"></small></p>
+            <h5 itemprop="name" class="card-title">Остава</h5>
+            <p itemprop="description" class="card-text"></p>
+            <p itemprop="location" class="card-text"><small class="text-muted"></small></p>
           </div>
         </div>
-        <div class="card custom-card">
+        <div class="card custom-card" itemscope itemtype="http://schema.org/ImageObject">
           <img class="card-img-top" 
           src="assets/images/artists/dream-theater.jpg" 
           alt="Artist Image" 
           height="196"
-          width="196"/>
+          width="196"
+          itemprop="contentUrl"
+          />
           <div class="card-body">
-            <h5 class="card-title">DREAM THEATER</h5>
-            <p class="card-text"></p>
-            <p class="card-text"><small class="text-muted"></small></p>
+            <h5 itemprop="name" class="card-title">DREAM THEATER</h5>
+            <p itemprop="descripton" class="card-text"></p>
+            <p itemprop="location" class="card-text"><small class="text-muted"></small></p>
           </div>
         </div>
-        <div class="card custom-card">
+        <div class="card custom-card" itemscope itemtype="http://schema.org/ImageObject">
           <img class="card-img-top" 
           src="assets/images/artists/kubanski-hor.jpg" 
           alt="Artist Image"
           height="196"
-          width="196"/>
+          width="196"
+          itemprop="contentUrl"
+          />
           <div class="card-body">
-            <h5 class="card-title">Кубански казашки хор</h5>
-            <p class="card-text"></p>
-            <p class="card-text"><small class="text-muted"></small></p>
+            <h5 itemprop="name" class="card-title">Кубански казашки хор</h5>
+            <p itemprop="description" class="card-text"></p>
+            <p itemprop="location" class="card-text"><small class="text-muted"></small></p>
           </div>
         </div>
-        <div class="card custom-card">
+        <div class="card custom-card" itemscope itemtype="http://schema.org/ImageObject">
           <img class="card-img-top" 
           src="assets/images/artists/therion.jpg" 
           alt="Artist Image"
           height="196"
-          width="196"/>
+          width="196"
+          itemprop="contentUrl"
+          />
           <div class="card-body">
-            <h5 class="card-title">Therion </h5>
-            <p class="card-text">Една от най-обичаните симфонични метъл банди у нас!</p>
-            <p class="card-text"><small class="text-muted"></small></p>
+            <h5 itemprop="name" class="card-title">Therion</h5>
+            <p itemprop="description" class="card-text">Една от най-обичаните симфонични метъл банди у нас!</p>
+            <p itemprop="location" class="card-text"><small class="text-muted"></small></p>
           </div>
         </div>
-        <div class="card custom-card">
+        <div class="card custom-card" itemscope itemtype="http://schema.org/ImageObject">
           <img class="card-img-top" 
           src="assets/images/artists/skandau.jpg" 
           alt="Artist Image"
           height="196"
-          width="196"/>
+          width="196"
+          itemprop="contentUrl"
+          />
           <div class="card-body">
-            <h5 class="card-title">Скандау</h5>
-            <p class="card-text">Хайвера Tour</p>
-            <p class="card-text"><small class="text-muted">Bulgaria</small></p>
+            <h5 itemprop="name" class="card-title">Скандау</h5>
+            <p itemprop="description" class="card-text">Хайвера Tour</p>
+            <p itemprop="location" class="card-text"><small class="text-muted">Bulgaria</small></p>
           </div>
         </div>
       </div>
 
       <div class="card-deck">
-        <div class="card custom-card">
+        <div class="card custom-card" itemscope itemtype="http://schema.org/ImageObject">
           <img class="card-img-top" 
           src="assets/images/artists/kirkorov.jpg" 
           alt="Artist Image"
           height="196"
-          width="196"/>
+          width="196"
+          itemprop="contentUrl"
+          />
           <div class="card-body">
-            <h5 class="card-title">Филип Киркоров</h5>
-            <p class="card-text"></p>
-            <p class="card-text"><small class="text-muted"></small></p>
+            <h5 itemprop="name" class="card-title">Филип Киркоров</h5>
+            <p itemprop="description" class="card-text"></p>
+            <p itemprop="location" class="card-text"><small class="text-muted"></small></p>
           </div>
         </div>
-        <div class="card custom-card">
+        <div class="card custom-card" itemscope itemtype="http://schema.org/ImageObject">
           <img class="card-img-top" 
           src="assets/images/artists/lube.jpg" 
           alt="Artist Image"
           height="196"
-          width="196"/>
+          width="196"
+          itemprop="contentUrl"
+          />
           <div class="card-body">
-            <h5 class="card-title">ЛЮБЭ</h5>
-            <p class="card-text">Юбилеен концерт 30 години</p>
-            <p class="card-text"><small class="text-muted"></small></p>
+            <h5 itemprop="name" class="card-title">ЛЮБЭ</h5>
+            <p itemprop="description" class="card-text">Юбилеен концерт 30 години</p>
+            <p itemprop="location" class="card-text"><small class="text-muted"></small></p>
           </div>
         </div>
-        <div class="card custom-card">
+        <div class="card custom-card" itemscope itemtype="http://schema.org/ImageObject">
           <img class="card-img-top" 
           src="assets/images/artists/grafa.jpg" 
           alt="Artist Image"
           height="196"
-          width="196"/>
+          width="196"
+          itemprop="contentUrl"
+          />
           <div class="card-body">
-            <h5 class="card-title">Графа</h5>
-            <p class="card-text">Турне</p>
-            <p class="card-text"><small class="text-muted">Bulgaria</small></p>
+            <h5 itemprop="name" class="card-title">Графа</h5>
+            <p itemprop="description" class="card-text">Турне</p>
+            <p itemprop="location" class="card-text"><small class="text-muted">Bulgaria</small></p>
           </div>
         </div>
-        <div class="card custom-card">
+        <div class="card custom-card" itemscope itemtype="http://schema.org/ImageObject">
           <img class="card-img-top" 
           src="assets/images/artists/goran-bregovic.jpg" 
           alt="Artist Image"
           height="196"
-          width="196"/>
+          width="196"
+          itemprop="contentUrl"
+          />
           <div class="card-body">
-            <h5 class="card-title">Горан Брегович</h5>
-            <p class="card-text">Концерт</p>
-            <p class="card-text"><small class="text-muted">Зала 1 на НДК</small></p>
+            <h5 itemprop="name" class="card-title">Горан Брегович</h5>
+            <p itemprop="description" class="card-text">Концерт</p>
+            <p itemprop="location" class="card-text"><small class="text-muted">Зала 1 на НДК</small></p>
           </div>
         </div>
-        <div class="card custom-card">
+        <div class="card custom-card" itemscope itemtype="http://schema.org/ImageObject">
           <img class="card-img-top" 
           src="assets/images/artists/vuldobrev.jpg" 
           alt="Artist Image"
           height="196"
-          width="196"/>
+          width="196"
+          itemprop="contentUrl"
+          />
           <div class="card-body">
-            <h5 class="card-title">Стефан Вълдобрев</h5>
-            <p class="card-text"></p>
-            <p class="card-text"><small class="text-muted"></small></p>
+            <h5 itemprop="name" class="card-title">Стефан Вълдобрев</h5>
+            <p itemprop="description" class="card-text"></p>
+            <p itemprop="location" class="card-text"><small class="text-muted"></small></p>
           </div>
         </div>
       </div>
