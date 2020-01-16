@@ -213,9 +213,40 @@
           </a>
         </div>
       </div>
+      <div class="custom-video-container">
+          <h3 itemprop="title" class="custom-second-header">Latest News</h3>
+          <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/nlTR052uku0" 
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen
+          itemprop="contentUrl"
+          >
+        </iframe>
+        </div>
     </div>
   </body>
   <footer class="text-center custom-footer">
+      <div class="modal custom-modal" tabindex="-1" role="dialog" id="privacyPolicyModal" display="none">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content custom-modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Privacy Policy</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span class="custom-close-button" id="closeButton" aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>This site uses cookies. By navigating here you agree with our cookie and data privacy policies.</p>
+              </div>
+              <div class="modal-footer">
+                <button id="declineButton" type="button" class="btn btn-secondary" data-dismiss="modal">Decline</button>
+                <button id="acceptButton" type="button" class="btn btn-primary" onclick="">Accept</button>
+              </div>
+            </div>
+          </div>
+        </div>
     &copy; 2020 Culture Events Hub. All Rights Reserved
   </footer>
 </html>

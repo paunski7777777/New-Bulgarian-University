@@ -147,3 +147,25 @@
 .custom-smile-icon {
   font-size: 4em;
 }
+
+.custom-modal {
+  top: initial !important;
+}
+
+.custom-modal-content {
+  background: #212529 !important;
+  color: beige;
+}
+
+.custom-close-button {
+  color: beige;
+}
+
+.custom-video-container {
+  text-align: center;
+}
+
+.custom-second-header {
+  margin: 30px;
+  text-align: center;
+}
